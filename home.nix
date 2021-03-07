@@ -21,6 +21,26 @@ in {
     "${mayniklas}/modules/devolopment.nix"
     "${mayniklas}/modules/firefox.nix"
   ];
+
+  home.packages = with pkgs; [
+    _1password-gui
+    atom
+    discord
+    htop
+    hugo
+    mpv
+    nvtop
+    obs-studio
+    signal-desktop
+    spotify
+    sublime-merge
+    sublime3
+    unzip
+    vim
+    vlc
+    youtube-dl
+  ];
+
   # This value determines the Home Manager release that your
   # configuration is compatible with. This helps avoid breakage
   # when a new Home Manager release introduces backwards
