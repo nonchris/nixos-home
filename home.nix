@@ -24,6 +24,7 @@ in {
     # imports
     ./modules/alacritty.nix
     ./modules/firefox.nix
+    ./modules/zsh.nix
   ];
 
   home.packages = with pkgs; [
