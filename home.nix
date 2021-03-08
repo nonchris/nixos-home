@@ -20,7 +20,8 @@ in {
     "${mayniklas}/modules/alacritty.nix"
     "${mayniklas}/modules/chromium.nix"
     "${mayniklas}/modules/devolopment.nix"
-    "${mayniklas}/modules/firefox.nix"
+    
+    ./modules/firefox.nix
   ];
 
   home.packages = with pkgs; [
