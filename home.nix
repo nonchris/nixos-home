@@ -35,6 +35,7 @@ in {
     spotify
     sublime-merge
     sublime3
+    thunderbird
     unzip
     vim
     vlc
