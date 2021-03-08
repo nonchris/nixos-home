@@ -17,10 +17,12 @@ in {
 
   # Imports
   imports = [
-    "${mayniklas}/modules/alacritty.nix"
+    # imports from MayNiklas
     "${mayniklas}/modules/chromium.nix"
     "${mayniklas}/modules/devolopment.nix"
     
+    # imports
+    ./modules/alacritty.nix
     ./modules/firefox.nix
   ];
 
