@@ -35,6 +35,7 @@ in {
     mpv
     nvtop
     obs-studio
+    python3
     signal-desktop
     spotify
     sublime-merge
