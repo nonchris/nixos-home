@@ -43,6 +43,14 @@ in {
     youtube-dl
   ];
 
+  programs = {
+    git = {
+      enable = true;
+      userEmail = "git@chris-ge.de";
+      userName = "nonchris";
+    };
+  };
+
   # This value determines the Home Manager release that your
   # configuration is compatible with. This helps avoid breakage
   # when a new Home Manager release introduces backwards
