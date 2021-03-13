@@ -28,6 +28,7 @@ in {
     ./modules/alacritty.nix
     ./modules/firefox.nix
     ./modules/git.nix
+    ./modules/vscode.nix
     ./modules/zsh.nix
   ];
 
@@ -35,6 +36,7 @@ in {
     _1password-gui
     atom
     discord
+    gcc
     htop
     hugo
     mpv
@@ -45,6 +47,7 @@ in {
     spotify
     sublime-merge
     sublime3
+    tdesktop
     thunderbird
     unzip
     vim
