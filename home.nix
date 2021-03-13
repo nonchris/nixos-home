@@ -15,6 +15,9 @@ in {
   home.username = "chris";
   home.homeDirectory = "/home/chris";
 
+  # Allow "unfree" licenced packages
+  nixpkgs.config = { allowUnfree = true; };
+
   # Imports
   imports = [
     # imports from MayNiklas
