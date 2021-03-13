@@ -1,12 +1,6 @@
 { config, pkgs, ... }:
 
-let
-  mayniklas = builtins.fetchGit {
-    # Updated 2020-03-07
-    url = "https://github.com/mayniklas/nixos-home";
-    rev = "cb1517d09b0995d4c7bad8424e7baa56b68c31c4";
-  };
-in {
+{
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
 
@@ -18,42 +12,16 @@ in {
   # Allow "unfree" licenced packages
   nixpkgs.config = { allowUnfree = true; };
 
-  # Imports
-  imports = [
-    # imports from MayNiklas
-    "${mayniklas}/modules/chromium.nix"
-    "${mayniklas}/modules/devolopment.nix"
-    
-    # imports
-    ./modules/alacritty.nix
-    ./modules/firefox.nix
-    ./modules/git.nix
-    ./modules/vscode.nix
-    ./modules/zsh.nix
+  # Install these packages for my user
+  home.packages = with pkgs; [
+    htop
+    iperf3
+    nmap
+    unzip
   ];
 
-  home.packages = with pkgs; [
-    _1password-gui
-    atom
-    discord
-    gcc
-    htop
-    hugo
-    mpv
-    nvtop
-    obs-studio
-    python3
-    signal-desktop
-    spotify
-    sublime-merge
-    sublime3
-    tdesktop
-    thunderbird
-    unzip
-    vim
-    vlc
-    youtube-dl
-  ];
+  # Imports
+  imports = [ ./modules/git.nix ./modules/zsh.nix ];
 
   # This value determines the Home Manager release that your
   # configuration is compatible with. This helps avoid breakage
