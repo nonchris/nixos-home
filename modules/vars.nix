@@ -51,16 +51,16 @@
     # base07 = "FFFFFF"; # #FFFFFF
     base08 = "F07178"; # #F07178
     base09 = "F78C6C"; # #F78C6C
-    base0A = "FFCB6B"; # #FFCB6B
+    base0A = "ffee6b"; # yellow
     base0B = "C3E88D"; # #C3E88D
     base0C = "89DDFF"; # #89DDFF
-    base0D = "d1ff82"; # d1ff82
-    base0E = "C792EA"; # #C792EA
+    base0D = "caff70"; # lime green
+    base0E = "d48df0"; # pinkish
     base0F = "FF5370"; # #FF5370
 
 # scheme: "Nord"
 # author: "arcticicestudio"
-base00 = "292929"; # #292929
+base00 = "292929"; # #grey
 base01 = "3B4252"; # #3B4252
 base02 = "434C5E"; # #434C5E
 base03 = "4C566A"; # #4C566A
