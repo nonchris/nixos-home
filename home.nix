@@ -24,6 +24,7 @@ in {
     # imports
     ./modules/alacritty.nix
     ./modules/firefox.nix
+    ./modules/vscode.nix
     ./modules/zsh.nix
   ];
 
