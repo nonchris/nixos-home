@@ -32,6 +32,7 @@ in {
     _1password-gui
     atom
     discord
+    gcc
     htop
     hugo
     mpv
