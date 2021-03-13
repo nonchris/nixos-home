@@ -41,6 +41,7 @@ in {
     spotify
     sublime-merge
     sublime3
+    tdesktop
     thunderbird
     unzip
     vim
