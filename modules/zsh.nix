@@ -9,6 +9,11 @@
 
     sessionVariables = { ZDOTDIR = "/home/chris/.config/zsh"; };
 
+    initExtra = ''
+      bindkey "^[[1;5C" forward-word
+      bindkey "^[[1;5D" backward-word
+    '';
+
     history = {
       expireDuplicatesFirst = true;
       ignoreSpace = false;
