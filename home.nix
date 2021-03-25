@@ -22,12 +22,12 @@ in {
   imports = [
     # imports from MayNiklas
     "${mayniklas}/modules/chromium.nix"
-    "${mayniklas}/modules/devolopment.nix"
     
     # imports
     ./modules/alacritty.nix
     ./modules/firefox.nix
     ./modules/git.nix
+    ./modules/jetbrains.nix
     ./modules/vscode.nix
     ./modules/zsh.nix
   ];
