@@ -42,7 +42,9 @@ in {
     mpv
     nvtop
     obs-studio
+    pstree
     python3
+    ruby
     signal-desktop
     spotify
     sublime-merge
@@ -52,6 +54,7 @@ in {
     unzip
     vim
     vlc
+    whois
     youtube-dl
   ];
 
